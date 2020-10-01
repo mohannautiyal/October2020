@@ -1,0 +1,8 @@
+
+Start Hub
+java -jar seleniumserver1.jar -role hub -hubConfig hub.json
+
+Start Node
+java -Dwebdriver.chrome.driver="chromedriver.exe" -jar seleniumserver1.jar -role node -nodeConfig node.json
+
+java -Dwebdriver.chrome.driver="chromedriver.exe" -jar seleniumserver1.jar -role node -nodeConfig node1.json
