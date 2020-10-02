@@ -1,0 +1,4 @@
+java -Dwebdriver.chrome.driver="E:/SeleniumGrid/chromedriver.exe" -jar seleniumserver1.jar -role node -hub http://192.168.1.5:4444/grid/register/ -host 192.168.1.5
+
+
+java -Dwebdriver.chrome.driver="E:/SeleniumGrid/chromedriver.exe" -jar seleniumserver1.jar -role node -hub http:localhost:4444/grid/register/ -host 192.168.1.5
