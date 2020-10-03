@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.AfterTest;
 
 public class baseClass {
 	
@@ -20,7 +21,7 @@ public	WebDriver driver;
 		if(browsername.equals("chrome")){
 			System.out.println("Setting browser chrome");
 			cap.setBrowserName("chrome");
-			cap.setPlatform(Platform.ANY);
+			cap.setPlatform(Platform.WINDOWS);
 			}
 	
 		//Chrome Options
@@ -40,7 +41,7 @@ public	WebDriver driver;
 		if(browsername.equals("chrome")){
 			System.out.println("Setting browser chrome");
 			cap.setBrowserName("chrome");
-			cap.setPlatform(Platform.ANY);
+			cap.setPlatform(Platform.WINDOWS);
 			}
 	
 		//Chrome Options
@@ -50,6 +51,14 @@ public	WebDriver driver;
 		driver.get("https://freecrm.co.in/");
 		driver.manage().window().maximize();
 		System.out.println(driver.getTitle());
+		driver.quit();
+	}
+	
+	
+	@AfterTest
+	public void close() {
+		if(driver!=null)
+		driver.quit();
 	}
 
 }

@@ -15,7 +15,6 @@ public class TestA2 extends baseClass{
 		Thread.sleep(2000);
 		setUpBrowser("chrome");
 		System.out.println("Ending A2");
-		driver.quit();
 	}
 
 	
