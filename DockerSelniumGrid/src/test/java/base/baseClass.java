@@ -17,11 +17,11 @@ public	WebDriver driver;
 	public void setUpBrowser(String browsername) throws MalformedURLException {
       
 		DesiredCapabilities cap = new DesiredCapabilities();
-		String hub="http://192.168.1.5:4444/wd/hub";
+		String hub="http://192.168.99.100:4444/wd/hub";
 		if(browsername.equals("chrome")){
 			System.out.println("Setting browser chrome");
 			cap.setBrowserName("chrome");
-			cap.setPlatform(Platform.WINDOWS);
+			cap.setPlatform(Platform.ANY);
 			}
 	
 		//Chrome Options
@@ -37,11 +37,11 @@ public	WebDriver driver;
 	public static void main(String[] args) throws MalformedURLException {
 		DesiredCapabilities cap = new DesiredCapabilities();
 		String browsername="chrome";
-		String hub="http://192.168.1.5:4444/wd/hub";
+		String hub="http://192.168.99.100:4444/wd/hub";
 		if(browsername.equals("chrome")){
 			System.out.println("Setting browser chrome");
 			cap.setBrowserName("chrome");
-			cap.setPlatform(Platform.WINDOWS);
+			cap.setPlatform(Platform.LINUX);
 			}
 	
 		//Chrome Options

@@ -1,0 +1,11 @@
+docker pull selenium/hub -- download docker images from Docker hub
+docker images         --check downloaded images
+docker ps             --list of running container
+
+docker run -d -p 4444:4444 --name selenium-hub selenium/hub
+docker run -d -P --link selenium-hub:hub selenium/node-chrome-debug
+docker run -d -P --link selenium-hub:hub selenium/node-firefox-debug
+
+docker log id
+
+Check selenium grid on http://192.168.99.100:4444/grid/console

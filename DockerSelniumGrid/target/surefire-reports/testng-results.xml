@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Suite" duration-ms="0" started-at="2020-10-06T22:32:12 IST" finished-at="2020-10-06T22:32:12 IST">
+    <groups>
+    </groups>
+  </suite> <!-- My Suite -->
+  <suite name="SuiteA" duration-ms="19463" started-at="2020-10-06T22:31:35 IST" finished-at="2020-10-06T22:31:54 IST">
+    <groups>
+    </groups>
+    <test name="TestA1" duration-ms="11421" started-at="2020-10-06T22:31:35 IST" finished-at="2020-10-06T22:31:46 IST">
+      <class name="com.home.suiteA.TestA1">
+        <test-method status="PASS" signature="Test_A1()[pri:0, instance:com.home.suiteA.TestA1@59494225]" name="Test_A1" duration-ms="11226" started-at="2020-10-06T22:31:35 IST" finished-at="2020-10-06T22:31:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_A1 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.home.suiteA.TestA1@59494225]" name="close" is-config="true" duration-ms="137" started-at="2020-10-06T22:31:46 IST" finished-at="2020-10-06T22:31:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.home.suiteA.TestA1 -->
+    </test> <!-- TestA1 -->
+    <test name="TestA2" duration-ms="19463" started-at="2020-10-06T22:31:35 IST" finished-at="2020-10-06T22:31:54 IST">
+      <class name="com.home.suiteA.TestA2">
+        <test-method status="PASS" signature="Test_A2()[pri:0, instance:com.home.suiteA.TestA2@544fe44c]" name="Test_A2" duration-ms="19278" started-at="2020-10-06T22:31:35 IST" finished-at="2020-10-06T22:31:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_A2 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.home.suiteA.TestA2@544fe44c]" name="close" is-config="true" duration-ms="127" started-at="2020-10-06T22:31:54 IST" finished-at="2020-10-06T22:31:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.home.suiteA.TestA2 -->
+    </test> <!-- TestA2 -->
+  </suite> <!-- SuiteA -->
+  <suite name="SuiteB" duration-ms="17312" started-at="2020-10-06T22:31:54 IST" finished-at="2020-10-06T22:32:12 IST">
+    <groups>
+    </groups>
+    <test name="TestB2" duration-ms="2005" started-at="2020-10-06T22:31:54 IST" finished-at="2020-10-06T22:31:56 IST">
+      <class name="com.home.suiteB.TestB2">
+        <test-method status="PASS" signature="Test_B2()[pri:0, instance:com.home.suiteB.TestB2@4e9ba398]" name="Test_B2" duration-ms="2002" started-at="2020-10-06T22:31:54 IST" finished-at="2020-10-06T22:31:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_B2 -->
+      </class> <!-- com.home.suiteB.TestB2 -->
+    </test> <!-- TestB2 -->
+    <test name="TestB3" duration-ms="10144" started-at="2020-10-06T22:31:54 IST" finished-at="2020-10-06T22:32:04 IST">
+      <class name="com.home.suiteB.TestB3">
+        <test-method status="PASS" signature="Test_B3()[pri:0, instance:com.home.suiteB.TestB3@63753b6d]" name="Test_B3" duration-ms="10021" started-at="2020-10-06T22:31:54 IST" finished-at="2020-10-06T22:32:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_B3 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.home.suiteB.TestB3@63753b6d]" name="close" is-config="true" duration-ms="120" started-at="2020-10-06T22:32:04 IST" finished-at="2020-10-06T22:32:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.home.suiteB.TestB3 -->
+    </test> <!-- TestB3 -->
+    <test name="TestB1" duration-ms="17312" started-at="2020-10-06T22:31:54 IST" finished-at="2020-10-06T22:32:12 IST">
+      <class name="com.home.suiteB.TestB1">
+        <test-method status="PASS" signature="Test_B1()[pri:1, instance:com.home.suiteB.TestB1@2ac273d3]" name="Test_B1" duration-ms="17159" started-at="2020-10-06T22:31:54 IST" finished-at="2020-10-06T22:32:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_B1 -->
+        <test-method status="PASS" signature="Test_BA1()[pri:2, instance:com.home.suiteB.TestB1@2ac273d3]" name="Test_BA1" duration-ms="28" started-at="2020-10-06T22:32:11 IST" finished-at="2020-10-06T22:32:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_BA1 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.home.suiteB.TestB1@2ac273d3]" name="close" is-config="true" duration-ms="117" started-at="2020-10-06T22:32:11 IST" finished-at="2020-10-06T22:32:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.home.suiteB.TestB1 -->
+    </test> <!-- TestB1 -->
+  </suite> <!-- SuiteB -->
+</testng-results>
