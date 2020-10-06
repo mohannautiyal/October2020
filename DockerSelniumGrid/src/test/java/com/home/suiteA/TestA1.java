@@ -11,7 +11,7 @@ public class TestA1 extends baseClass{
 	@Test
 	public void Test_A1() throws InterruptedException, MalformedURLException {
 		System.out.println("Executing Test A1");
-		setUpBrowser("chrome");
+		setUpBrowser("firefox");
 		Thread.sleep(2000);
 		System.out.println("Ending A1");
 	}

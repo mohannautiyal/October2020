@@ -6,6 +6,7 @@ import java.net.URL;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterTest;
@@ -22,11 +23,17 @@ public	WebDriver driver;
 			System.out.println("Setting browser chrome");
 			cap.setBrowserName("chrome");
 			cap.setPlatform(Platform.ANY);
+			ChromeOptions copt = new ChromeOptions();
+			copt.merge(cap);
 			}
+		else {
+			cap.setBrowserName("firefox");
+			FirefoxOptions fopt = new FirefoxOptions();
+			fopt.merge(cap);
+		}
 	
 		//Chrome Options
-				ChromeOptions copt = new ChromeOptions();
-				copt.merge(cap);
+				
 		driver = new RemoteWebDriver(new URL(hub),cap);
 		driver.get("https://freecrm.co.in/");
 		driver.manage().window().maximize();

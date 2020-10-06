@@ -14,7 +14,7 @@ public class TestB3 extends baseClass {
 	public void Test_B3() throws InterruptedException, MalformedURLException {
 		System.out.println("Executing Test B3");
 		Thread.sleep(2000);
-		setUpBrowser("chrome");
+		setUpBrowser("firefox");
 		System.out.println("Ending B3");
 	}
 

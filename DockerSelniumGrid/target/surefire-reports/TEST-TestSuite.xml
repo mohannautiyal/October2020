@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="38.004" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="57.053" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Madan\AppData\Local\Temp\surefire1289040619906996708\surefirebooter5764817075867395785.jar C:\Users\Madan\AppData\Local\Temp\surefire1289040619906996708 2020-10-06T22-31-32_813-jvmRun1 surefire1574513390177795009tmp surefire_07328759000598177430tmp"/>
+    <property name="sun.java.command" value="C:\Users\Madan\AppData\Local\Temp\surefire3348267990210892394\surefirebooter4417608826533756489.jar C:\Users\Madan\AppData\Local\Temp\surefire3348267990210892394 2020-10-06T22-47-54_399-jvmRun1 surefire6508986337613138768tmp surefire_05074801668870997885tmp"/>
     <property name="surefire.test.class.path" value="E:\October2020\DockerSelniumGrid\target\test-classes;E:\October2020\DockerSelniumGrid\target\classes;C:\Users\Madan\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\Madan\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Madan\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;C:\Users\Madan\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;C:\Users\Madan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar;C:\Users\Madan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;C:\Users\Madan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;C:\Users\Madan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar;C:\Users\Madan\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar;C:\Users\Madan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar;C:\Users\Madan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar;C:\Users\Madan\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar;C:\Users\Madan\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\Madan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Madan\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Madan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Madan\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\Madan\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\Madan\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Madan\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Madan\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Madan\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Madan\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Madan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Madan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Madan\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\Madan\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Madan"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Madan\AppData\Local\Temp\surefire1289040619906996708\surefirebooter5764817075867395785.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Madan\AppData\Local\Temp\surefire3348267990210892394\surefirebooter4417608826533756489.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,59 +61,55 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="Test_A3" classname="com.home.suiteA.TestA3" time="2.013">
+  <testcase name="Test_A3" classname="com.home.suiteA.TestA3" time="2.012">
     <system-out><![CDATA[Executing Test A1
-Executing Test A3
 Executing Test A2
-Setting browser chrome
+Executing Test A3
 Ending A3
 Setting browser chrome
 ]]></system-out>
   </testcase>
-  <testcase name="Test_A1" classname="com.home.suiteA.TestA1" time="11.224">
-    <system-out><![CDATA[Free CRM #1 cloud software for any business large or small
-Ending A1
-]]></system-out>
-    <system-err><![CDATA[Oct 06, 2020 10:31:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Test_A2" classname="com.home.suiteA.TestA2" time="19.276">
+  <testcase name="Test_A2" classname="com.home.suiteA.TestA2" time="19.505">
     <system-out><![CDATA[Free CRM #1 cloud software for any business large or small
 Ending A2
 ]]></system-out>
-    <system-err><![CDATA[Oct 06, 2020 10:31:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[Oct 06, 2020 10:48:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 06, 2020 10:48:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Test_B2" classname="com.home.suiteB.TestB2" time="2.002">
-    <system-out><![CDATA[Executing Test B1
-Executing Test B3
+  <testcase name="Test_A1" classname="com.home.suiteA.TestA1" time="26.295">
+    <system-out><![CDATA[Free CRM #1 cloud software for any business large or small
+Ending A1
+]]></system-out>
+  </testcase>
+  <testcase name="Test_B2" classname="com.home.suiteB.TestB2" time="1.999">
+    <system-out><![CDATA[Executing Test B3
 Executing Test B2
-Setting browser chrome
-Setting browser chrome
+Executing Test B1
 Ending B2
 ]]></system-out>
   </testcase>
-  <testcase name="Test_B3" classname="com.home.suiteB.TestB3" time="10.023">
-    <system-out><![CDATA[Free CRM #1 cloud software for any business large or small
-Ending B3
-]]></system-out>
-    <system-err><![CDATA[Oct 06, 2020 10:31:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Test_B1" classname="com.home.suiteB.TestB1" time="17.159">
-    <system-out><![CDATA[Free CRM #1 cloud software for any business large or small
+  <testcase name="Test_B1" classname="com.home.suiteB.TestB1" time="22.01">
+    <system-out><![CDATA[Setting browser chrome
+Free CRM #1 cloud software for any business large or small
 Ending B1
 ]]></system-out>
-    <system-err><![CDATA[Oct 06, 2020 10:32:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[Oct 06, 2020 10:48:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 06, 2020 10:48:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Test_BA1" classname="com.home.suiteB.TestB1" time="0.028">
+  <testcase name="Test_BA1" classname="com.home.suiteB.TestB1" time="0.132">
     <system-out><![CDATA[Executing Test BA1
 https://freecrm.co.in/
+]]></system-out>
+  </testcase>
+  <testcase name="Test_B3" classname="com.home.suiteB.TestB3" time="3.077">
+    <system-out><![CDATA[Free CRM #1 cloud software for any business large or small
+Ending B3
 ]]></system-out>
   </testcase>
 </testsuite>
