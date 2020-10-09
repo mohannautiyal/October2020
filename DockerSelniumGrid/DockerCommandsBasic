@@ -1,0 +1,14 @@
+docker -v
+docker version
+clear
+docker info
+docker --help
+
+docker images
+docker pull
+docker ps
+
+docker run
+docker start
+docker stop
+docker rmi (remove images)
