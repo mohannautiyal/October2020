@@ -21,7 +21,7 @@ public class BrowserFactory {
 			if (browserName.equals("chrome")) {
 				WebDriverManager.chromedriver().setup();
 				ChromeOptions chopt = new ChromeOptions();
-				 chopt.addArguments("--headless");
+				// chopt.addArguments("--headless");
 				chopt.addArguments("--incognito");
 
 				driver = new ChromeDriver(chopt);
