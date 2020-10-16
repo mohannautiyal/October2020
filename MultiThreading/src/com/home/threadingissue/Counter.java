@@ -4,8 +4,8 @@ public class Counter implements Runnable{
 
 	 int count =0;
 	
-	public void run() {
-		for(int i=0;i<5;i++)
+	public  void run() {
+		for(int i=0;i<1000;i++)
 		{
 			count++;
 			System.out.println(Thread.currentThread().getName()+ " "+count);

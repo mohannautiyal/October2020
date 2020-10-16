@@ -10,7 +10,11 @@ public class runner {
         
 		t1.start();
 		t2.start();
-		t1.join();
+		t1.join(); //Makes the main thread to wait for the other threads to complete
 		t2.join();
+		System.out.println("Threads Completed");
+		System.out.println("Threads Completed "+t1.isAlive());
+        System.out.println(cnt1.count);
+		
 	}
 }
