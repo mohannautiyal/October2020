@@ -1,0 +1,42 @@
+package com.home.streams;
+
+public class Employee {
+	
+	public String name;
+	public int empNo;
+	public int salary;
+	
+	public Employee(String name, int empNo, int salary) {
+		super();
+		this.name = name;
+		this.empNo = empNo;
+		this.salary = salary;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getEmpNo() {
+		return empNo;
+	}
+
+	public void setEmpNo(int empNo) {
+		this.empNo = empNo;
+	}
+
+	public int getSalary() {
+		return salary;
+	}
+
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+	
+	
+
+}
