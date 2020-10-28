@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="86" started-at="2020-10-28T22:29:02 IST" finished-at="2020-10-28T22:29:02 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="86" started-at="2020-10-28T22:29:02 IST" finished-at="2020-10-28T22:29:02 IST">
+      <class name="com.home.TestA">
+        <test-method status="PASS" signature="TestA1(org.testng.ITestContext)[pri:0, instance:com.home.TestA@7d907bac]" name="TestA1" duration-ms="22" started-at="2020-10-28T22:29:02 IST" finished-at="2020-10-28T22:29:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a3869f4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA1 -->
+        <test-method status="PASS" signature="TestA2(org.testng.ITestContext)[pri:0, instance:com.home.TestA@7d907bac]" name="TestA2" duration-ms="1" started-at="2020-10-28T22:29:02 IST" finished-at="2020-10-28T22:29:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a3869f4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA2 -->
+      </class> <!-- com.home.TestA -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
