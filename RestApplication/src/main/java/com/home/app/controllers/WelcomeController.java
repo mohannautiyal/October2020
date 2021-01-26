@@ -11,7 +11,7 @@ public class WelcomeController {
 	@GetMapping(value="/")
 	public String welcomeEmp() {
 		
-		return "Welcome to the Home Page";
+		return "Welcome to the Home Page by Maddy";
 	}
 
 }
