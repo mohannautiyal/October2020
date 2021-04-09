@@ -11,7 +11,7 @@ public class WelcomeController {
 	@GetMapping(value="/")
 	public String welcomeEmp() {
 		
-		return "Welcome to the Home Page by Maddy. This is a CI and CD project Pipeline Deployment";
+		return "Welcome to Madan's Home Page. This is a CI and CD project Pipeline Deployment";
 	}
 
 }
